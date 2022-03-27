@@ -1,0 +1,35 @@
+{
+  "name": "notion-x-example-full",
+  "version": "6.0.14",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "analyze": "cross-env ANALYZE=true next build",
+    "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build",
+    "deploy": "vercel deploy"
+  },
+  "dependencies": {
+    "got": "^12.0.2",
+    "lqip-modern": "^1.2.0",
+    "next": "^12.1.0",
+    "notion-client": "^6.0.14",
+    "notion-utils": "^6.0.14",
+    "p-map": "^5.3.0",
+    "p-memoize": "^6.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-notion-x": "^6.0.14",
+    "react-static-tweets": "^0.7.1",
+    "static-tweets": "^0.7.1"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^12.1.0",
+    "@types/node": "^16.11.2",
+    "cross-env": "^7.0.3",
+    "typescript": "^4.6.2"
+  }
+}
